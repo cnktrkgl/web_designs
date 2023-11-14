@@ -1,0 +1,17 @@
+/*mobil classları*/
+#navbar {
+    flex-direction: column;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    overflow: hidden;
+    height: 100px;
+}
+#edu .items {
+    flex-direction: column;
+}
+#edu .items .item {
+    width: 100%;
+}
+#about .items .item span {
+    float: left;
+}

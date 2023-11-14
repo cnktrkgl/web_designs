@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+    color: #fff;
+}
+html {
+    font-family: "Open Sans", sans-serif;
+}
+/*Navbar*/
+#navbar {
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 0.75rem;
+    height: 70px;
+}
+#navbar ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+}
+#navbar ul li a {
+    padding: 0.75rem;
+}
+#navbar ul li a:hover {
+    background-color: #336ea2;
+    border-radius: 4px;
+}
+/*Section Home*/
+#home {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem;
+    border-bottom: 1px solid black;
+}
+#home img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+}
+#home .name h2 {
+    margin-bottom: 0.75rem;
+}
+#home .name p {
+    opacity: 0.6;
+    font-style: normal;
+}
+/*Section Edu*/
+#edu {
+    background: #062e51;
+    color: #fff;
+    padding: 1rem;
+    border-bottom: 1px solid black;
+}
+#edu .items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#edu .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#edu .items .item:hover {
+    color: #fff;
+    opacity: 0.6;
+}
+/*Section About*/
+#about {
+    border-bottom: 1px solid black;
+    padding: 1rem;
+}
+#about .items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+#about .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#about .items .item span:hover {
+    background-color: #336ea2;
+    color: #fff;
+    border-radius: 4px;
+}
+/*Section Contact*/
+#contact {
+    border-bottom: 1px solid black;
+    background: #062e51;
+    color: #fff;
+    padding: 1rem;
+}
+#contact .items {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+#contact .items .item {
+    width: 33%;
+    text-align: center;
+    padding: 0.5rem;
+}
+#contact .items .item i {
+    color: #ffffff;
+    padding: 1rem;
+}
+#contact .items .item i:hover {
+    background-color: #336ea2;
+    border-radius: 4px;
+}
