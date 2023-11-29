@@ -1,0 +1,156 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #fff;
+}
+html {
+  font-family: "Open Sans", sans-serif;
+}
+/* Navbar Section */
+#navbar {
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 0.75rem;
+  height: 70px;
+}
+#navbar ul {
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+}
+#navbar ul li a {
+  padding: 0.5rem;
+}
+#navbar ul li a:hover {
+  background: #525252;
+  border-radius: 4px;
+}
+
+/* Home Section */
+
+#home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+  border-bottom: 1px solid grey;
+}
+
+#home img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 100%;
+}
+#home .name h2 {
+  margin-bottom: 0.75rem;
+}
+#home .name p {
+  opacity: 0.6;
+}
+
+/* About */
+
+#about {
+  color: #fff;
+  padding: 1rem;
+}
+#about .items {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#about .items .item {
+  width: 33%;
+  text-align: center;
+  padding: 0.5rem;
+}
+#about .items .item:hover {
+  color: gray;
+  opacity: 0.6;
+}
+/* Inventory */
+
+#inventory {
+  color: #333;
+  padding: 1rem;
+}
+.inventories {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+}
+
+.inventories .inventory {
+  display: flex;
+  padding: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.inventories .inventory .inventory-image {
+  margin-right: 0.5rem;
+  position: relative;
+}
+.inventories .inventory .inventory-image img {
+  border-radius: 5px;
+}
+.inventories .inventory .inventory-image span {
+  background: red;
+  padding: 0.25rem;
+  color: #fff;
+  border-radius: 4px;
+  position: absolute;
+  top: 15px;
+  left: 0;
+}
+.inventories .inventory .inventory-info .title {
+  letter-spacing: 1.2px;
+  font-weight: 700;
+  margin-bottom: 0.25rem;
+}
+.inventories .inventory .inventory-info .description {
+  letter-spacing: 1.2px;
+  margin-bottom: 0.25rem;
+  opacity: 0.6;
+}
+.inventories .inventory .inventory-info .capacity {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+  opacity: 0.6;
+}
+.inventories .inventory .inventory-info .rate {
+  font-size: 0.8rem;
+  margin-bottom: 0.25rem;
+  opacity: 0.6;
+}
+/* Contact */
+
+#contact {
+  color: #fff;
+  padding: 1rem;
+}
+
+#contact .contact-form {
+  max-width: 700px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+#contact .contact-form a {
+  display: flex;
+  margin-top: 1rem;
+  align-self: center;
+  padding: 1rem;
+  font-size: 2rem;
+}
+#contact .contact-form a:hover {
+  opacity: 0.8;
+}
