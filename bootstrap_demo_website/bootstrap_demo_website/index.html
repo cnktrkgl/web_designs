@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous"> <!-- css -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"> <!-- fontawsome -->
+    <title>Bootstrap Web Site Demo</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Social Network</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">Ana Sayfa</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Hakkımızda</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Ayarlar
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">Profili Düzenle</a></li>
+                  <li><a class="dropdown-item" href="#">Akışı Düzenle</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Yardım</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" aria-disabled="true">Profil</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Ara</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+    <div class="container mt-3">
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card">
+            <div class="avatar-box">
+              <img src="images/benafflecksadsmokesoda.jpg" class="avatar" alt="profile">
+            </div>
+            <div class="card-body">
+              <h5 class="card-title">Cenk Türkoğlu</h5>
+              <p class="card-text">Web Designer</p>
+            </div>
+            <ul class="list-group list-group-flush">
+              <li class="list-group-item"><i class="fa-brands fa-square-github"></i> cnktrkgl</li>
+              <li class="list-group-item"><i class="fa-brands fa-square-behance"></i> cnktrkgl</li>
+              <li class="list-group-item"><i class="fa-solid fa-globe"></i> cenkturkoglu</li>
+            </ul>
+            <div class="card-body">
+              <a href="#" class="card-link">Profili Düzenle</a>
+            </div>
+          </div>
+          <!-- Modal Card -->
+          <div class="card mt-3">
+            <h3 class="card-header">Sayfa</h3>
+            <div class="card-body">
+              <h4 class="card-title">Sayfa Düzenleme</h4>
+              <p class="card-text">Akışda içerikleri düzenlemek için tıklayınız.</p>
+              <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                Düzenle
+              </button>
+            </div>
+          </div>
+          <!---->
+        </div>
+        <div class="col-md-6">
+          <div class="alert alert-success" role="alert">
+            <strong>Tebrikler!</strong> Akış Başarıyla Güncellendi.
+          </div>
+          <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+              <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="images/gta-vice-city-stories-background.jpg" class="d-block w-100" alt="gtavcs">
+              </div>
+              <div class="carousel-item">
+                <img src="images/gtavc_anniversary_crimetree_2880x1800.jpg" class="d-block w-100" alt="gtavice">
+              </div>
+              <div class="carousel-item">
+                <img src="images/the-simpsons-vice-city.jpg" class="d-block w-100" alt="gtasimpsons">
+              </div>
+              <div class="carousel-item">
+                <img src="images/tommy-s-shirt-background.jpg" class="d-block w-100" alt="gtavc_shirt">
+              </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+              <span class="carousel-control-next-icon" aria-hidden="true"></span>
+              <span class="visually-hidden">Next</span>
+            </button>
+          </div>
+          <div class="row mt-3">
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">GTA VI Wallpaper</p>
+                </div>
+                <img class="mini-square-post" src="images/gta-iv-wallpaper.png" alt="gta4">
+                <div class="card-body">
+                  <p class="card-text">2023 Aralık</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">GTA Vice City</p>
+                </div>
+                <img class="mini-square-post" src="images/vice-city.jpg" alt="gta-vc">
+                <div class="card-body">
+                  <p class="card-text">2023 Aralık</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-3">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">GTA 6</p>
+                </div>
+                <span class="post-content">
+                  <p class="mt-3 ms-2">GTA 6 2025 release.</p>
+                </span>
+                <div class="card-body">
+                  <p class="card-text">2023 Aralık</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-3">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">GTA 6</p>
+                </div>
+                <img class="square-post" src="images/gta_6_artwork.jpg" alt="gta6">
+                <div class="card-body">
+                  <p class="card-text">2023 Aralık</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-12 mt-3">
+              <div class="card">
+                <div class="card-body">
+                  <p class="card-text">GTA San Andreas</p>
+                </div>
+                <img class="square-post" src="images/gta-sa-city.jpg" alt="gta-sa">
+                <div class="card-body">
+                  <p class="card-text">2023 Kasım</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-12 mt-3">
+            <nav aria-label="Page navigation example">
+              <ul class="pagination">
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Previous">
+                    <span aria-hidden="true">&laquo;</span>
+                  </a>
+                </li>
+                <li class="page-item"><a class="page-link" href="#">1</a></li>
+                <li class="page-item"><a class="page-link" href="#">2</a></li>
+                <li class="page-item"><a class="page-link" href="#">3</a></li>
+                <li class="page-item">
+                  <a class="page-link" href="#" aria-label="Next">
+                    <span aria-hidden="true">&raquo;</span>
+                  </a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card">
+            <div class="card-header">
+              Öne Çıkanlar
+            </div>
+            <div class="card-body">
+              <h4 class="card-title">Konumunuzda <br>Öne Çıkanlar</h4>
+              <p class="card-text">Ekonomi<br>Dünya<br>Teknoloji</p>
+            </div>
+          </div>
+          <div class="card mt-3">
+            <div class="card-body">
+              <h4 class="card-title">Son Dakika</h4>
+              <h6 class="card-subtitle mb-2 text-muted">Son Dakika Ekran Kartlarında İndirim</h6>
+              <p class="card-text">
+                Teknoloji marketlerinde Ekran Kartlarında indirim var.
+              </p>
+              <a href="#!" class="card-link">İçerik</a>
+              <a href="#!" class="card-link">Harici İçerik</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal Card Popup -->
+    <div class="modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="exampleModalLabel">Modal Başlığı</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          <div class="modal-body">
+            Modal İçeriği
+          </div>
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Kapat</button>
+            <button type="button" class="btn btn-primary">Değişikliği Kaydet</button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!---->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script> <!-- poper.js -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> <!-- js -->
+    <script src="https://code.jquery.com/jquery-3.7.1.slim.js"></script> <!-- jquery -->
+</body>
+<footer class="footer bg-light">
+  <div class="container">
+    <div class="row footer-row">
+      <div class="col-md-8">
+        Social Media<br>
+        Copyright <i class="fa-solid fa-copyright"></i> 2023
+      </div>
+      <div class="col-md-4">
+        Destek
+        <ul>
+          <li>Kullanıcı Sözleşmesi</li>
+          <li>S.S.S.</li>
+          <li>İletişim</li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+</html>
