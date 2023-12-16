@@ -1,0 +1,7 @@
+.nav-link.active {
+    color: red !important;
+}
+.imgsize {
+    height: 200px;
+    width: 200px;
+}
