@@ -1,0 +1,117 @@
+body {
+    margin: 0px;
+}
+
+.navSection {
+    background: navy;
+    color: white;
+    height: 90vh;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 24px 32px;
+}
+
+.links a {
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+    padding-right: 16px;
+    padding-top: 24px;
+}
+
+.contact {
+    background: white;
+    color: navy;
+    text-decoration: none;
+    padding: 16px 24px;
+    border-radius: 30px;
+}
+
+.contact:hover {
+    opacity: 0.8;
+}
+
+.personal {
+    padding: 0 20%;
+}
+
+.title {
+    font-size: 60px;
+    letter-spacing: 2px;
+    padding: 30px 0px;
+}
+
+.aboutMe {
+    display: flex;
+    justify-content: space-between;
+}
+
+.aboutMe p {
+    width: 50%;
+}
+
+.skills {
+    display: flex;
+    width: 50%;
+    list-style: none;
+}
+
+.skills li {
+    padding: 15px;
+}
+
+.blogSection {
+    padding: 64px 20%;
+}
+
+.mainTitle {
+    font-size: 60px;
+}
+
+.bologText {
+    font-size: 20px;
+}
+
+.blogTitle {
+    font-weight: 500;
+}
+
+.blogPost {
+    margin-top: 10px;
+}
+
+.eduSection {
+    background: lightgray;
+    padding: 64px 20%;
+}
+
+.school {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid black;
+    border-radius: 30px;
+    padding: 15px;
+    margin: 20px 0px;
+}
+
+.schoolTitlebold {
+    font-weight: bold;
+}
+.schoolDate {
+    color: gray;
+}
+.footerContact {
+    background: black;
+    padding: 64px;
+    /* display: flex; */
+    /* justify-content: center; */
+    text-align: center;
+}
+.footerContact img {
+    width: 30px;
+    height: 30px;
+    margin-right: 8px;
+}
