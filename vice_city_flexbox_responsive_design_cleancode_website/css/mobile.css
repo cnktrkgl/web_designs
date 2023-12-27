@@ -1,0 +1,52 @@
+.headerImg {
+    display: none;
+}
+
+.mobileIcon {
+    display: block;
+}
+
+.header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mobileLinksDisplay {
+    display: none;
+}
+
+.mobileLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileLinks a {
+    margin-bottom: 10px;
+}
+
+.banner {
+    height: 1600px;
+    width: auto;
+}
+
+.cards {
+    flex-direction: column;
+}
+
+.card {
+    width: auto;
+}
+
+.crimeTree img{
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+.form {
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0px;
+}
