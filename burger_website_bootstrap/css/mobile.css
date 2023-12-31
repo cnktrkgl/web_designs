@@ -1,0 +1,68 @@
+.headerImg {
+    display: none;
+}
+
+.mobileIcon {
+    display: block;
+}
+
+.header {
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.mobileLinksDisplay {
+    display: none;
+}
+
+.mobileLinks {
+    display: flex;
+    flex-direction: column;
+}
+
+.mobileLinks a {
+    margin-bottom: 10px;
+}
+
+.banner {
+    height: 1600px;
+    width: auto;
+}
+
+.cards {
+    flex-direction: column;
+}
+
+.cardresponsive {
+    flex: 100%;
+}
+
+.card {
+    width: auto;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+}
+
+.footer {
+    flex-direction: column;
+    height: auto;
+}
+
+.footerListRight {
+    display: flex;
+    padding: 0px;
+}
+
+.footerListLeft {
+    display: flex;
+    padding: 0px;
+}
+
+.footerListRight li {
+    margin-right: 10px;
+}
+
+.footerListLeft li {
+    margin-right: 10px;
+}
