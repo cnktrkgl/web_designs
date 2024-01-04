@@ -1,0 +1,150 @@
+body {
+    background: #84b2e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    padding: 32px;
+}
+
+.container {
+    background: white;
+    max-width: 1000px;
+    width: 100%;
+    /* height: 100vh; */
+    border-radius: 30px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header {
+    display: flex;
+    justify-content: space-around;
+    text-transform: uppercase;
+    color: #0d6ccb;
+    font-weight: bold;
+    width: 100%;
+}
+
+.header .active {
+    color: #84b2e0;
+    position: relative;
+}
+
+.header p:hover {
+    color: #015ebe;
+    cursor: pointer;
+}
+
+.header .active::before {
+    content: "";
+    background: #015ebe;
+    width: 200%;
+    height: 4px;
+    position: absolute;
+    bottom: -7px;
+    left: -40px;
+    border-radius: 10px;
+}
+
+.line {
+    position: absolute;
+    height: 3px;
+    background: #84b2e0;
+    max-width: 1000px;
+    width: 100%;
+    top: 120px;
+}
+
+.customers {
+    background: #015ebe;
+    width: 50%;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    margin: 32px 0px 16px 0px;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.customers .tittle {
+    font-size: 16px;
+    font-weight: bold;
+    margin: 16px 0px 0px 0px;
+}
+
+.customers .number {
+    font-size: 50px;
+    margin: 0px;
+}
+
+.cardContainer {
+    display: flex;
+    width: 80%;
+    justify-content: space-around;
+}
+
+.card {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 16px 32px;
+    border-radius: 10px;
+    width: 30%;
+    text-align: center;
+    margin: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    transition: 0.2s transform ease;
+    /* position: relative; */
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+.card .tittle {
+    font-weight: bold;
+    padding: 8px;
+}
+
+.card .tittle .price {
+    font-size: 42px;
+}
+
+.card .tittle p {
+    margin: 4px 0px;
+}
+
+hr {
+    width: 30%;
+    border: 1px solid #0d6ccb;
+    border-radius: 2px;
+}
+
+.card button {
+    border: none;
+    border-radius: 10px;
+    padding: 16px;
+    background: #015ebe;
+    color: white;
+    font-weight: bold;
+    margin: 8px 0px;
+    transition: 0.2s transform ease;
+}
+
+.card button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.professional {
+    background: #84b2e0;
+    color: white;
+    position: absolute;
+    top: -25px;
+    width: 100%;
+    left: 0px;
+    border-radius: 10px 10px 0px 0px;
+}
