@@ -1,0 +1,31 @@
+.gridLayout {
+    grid-template-areas:
+        'artdesign  artdesign'
+        'building tower'
+        'plaza village'
+        'glass glass';
+}
+
+.header {
+    padding: 30px 0px;
+}
+
+.header .navbar {
+    display: none;
+}
+
+.header .hamburgerBar {
+    display: block;
+}
+
+.card .overlay {
+    font-size: 24px;
+}
+
+.footer {
+    padding: 40px 30px 30px 30px;
+}
+
+.footer p {
+    font-size: 15px;
+}
