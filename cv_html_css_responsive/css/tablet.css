@@ -1,0 +1,9 @@
+.bannerPic,
+.aboutPic {
+    width: 120%;
+}
+
+.edus .edu {
+    margin: 10px 10px;
+    padding: 10px;
+}

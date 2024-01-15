@@ -1,0 +1,239 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+.nav {
+    background: #656565;
+    height: 75px;
+    padding: 0.25rem 0rem 0.25rem 2rem;
+}
+
+.navLogo {
+    height: 100%;
+}
+
+.divBanner {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    padding: 50px 0px;
+    background: floralwhite;
+}
+
+.bannerInfo {
+    display: flex;
+    flex-direction: column;
+}
+
+.bannerInfo .name {
+    font-size: 50px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.bannerInfo .underline {
+    width: 330px;
+    height: 4px;
+    border-radius: 10px;
+    background: #656565;
+    margin-bottom: 20px;
+}
+
+.bannerInfo .title {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+.bannerInfo .aboutBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s linear;
+}
+
+.bannerInfo .eduBtn {
+    margin-top: 20px;
+    padding: 10px 20px;
+    width: 200px;
+    font-size: 20px;
+    text-align: center;
+    background: black;
+    color: white;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.4);
+    transition: all 0.3s linear;
+}
+
+.bannerInfo .aboutBtn:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.bannerInfo .eduBtn:hover {
+    background: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.bannerImg {
+    width: 20%;
+}
+
+.bannerPic,
+.aboutPic {
+    width: 100%;
+    border: 4px solid #656565;
+    border-radius: 30px;
+}
+
+.aboutSection {
+    padding: 100px 40px;
+    background: white;
+}
+
+.aboutSection .divAbout {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.divAbout .aboutInfo .aboutTitle {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.divAbout .aboutInfo .aboutP {
+    margin-bottom: 20px;
+    font-size: 20px;
+    line-height: 1.5;
+}
+
+.divAbout .aboutInfo .underline {
+    width: 140px;
+    height: 4px;
+    border-radius: 10px;
+    background: #656565;
+    margin-bottom: 20px;
+}
+
+.divAbout .aboutInfo .aboutTitle2 {
+    font-size: 30px;
+    margin-bottom: 10px;
+}
+
+.divAbout .aboutImg {
+    width: 30%;
+}
+
+.divAbout .aboutInfo {
+    width: 40%;
+}
+
+.eduSection {
+    background: floralwhite;
+    padding: 80px 40px;
+}
+
+.eduSection .eduTitle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0px;
+}
+
+.eduTitle .eduName {
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.eduSection .eduTitle .underline {
+    width: 100px;
+    height: 4px;
+    border-radius: 10px;
+    background: #656565;
+    margin-bottom: 20px;
+}
+
+.edus {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.edus .eduInfo {
+    text-align: center;
+}
+
+.edus i {
+    display: flex;
+    justify-content: center;
+}
+
+.edus p {
+    font-size: 20px;
+}
+
+.edus span {
+    font-weight: bold;
+}
+
+.edu {
+    background: white;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    border-radius: 30px;
+    padding: 20px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+
+.footerDiv {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 80px 0px;
+    background: #656565;
+    color: white;
+}
+
+.footerDiv .footerLinks {
+    margin-bottom: 20px;
+}
+
+.footerDiv .footerLinks ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footerDiv .footerLinks ul li {
+    padding: 0px 10px;
+}
+
+.footerDiv .footerLinks i {
+    font-size: 30px;
+    color: white;
+}
+
+.footerDiv .footerInfo {
+    font-size: 20px;
+}
+
+.footerInfo a {
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+}
