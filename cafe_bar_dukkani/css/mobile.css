@@ -1,0 +1,73 @@
+.navBtn {
+    display: none;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.features {
+    flex-direction: column;
+}
+
+.aboutDiv {
+    flex-direction: column;
+}
+
+.aboutImg {
+    width: 100%;
+}
+
+.aboutInfo {
+    width: 100%;
+    margin-top: 20px;
+}
+
+.productsDiv {
+    flex-direction: column;
+}
+
+.productContainer {
+    flex-direction: column;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.productInfo {
+    width: 100%;
+}
+
+.product {
+    margin: 0;
+}
+
+.ourServices {
+    flex-direction: column;
+}
+
+.contactDiv {
+    flex-direction: column;
+}
+
+.contactInfo {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.contactForm {
+    width: auto;
+}
+
+.footerDiv {
+    flex-direction: column;
+}
+
+.footerText {
+    font-size: 10px;
+    margin-top: 20px;
+}
+
+.btnDiv {
+    text-align: center;
+    margin-top: 20px;
+}
