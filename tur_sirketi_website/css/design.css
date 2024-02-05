@@ -1,0 +1,381 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.btn {
+    background: cornflowerblue;
+    color: white;
+    padding: 6px 12px;
+    font-size: 14px;
+    letter-spacing: 3px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+    border: 2px solid transparent;
+}
+
+.btn:hover {
+    background: white;
+    color: cornflowerblue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.navbar {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    padding: 16px 32px;
+    position: fixed;
+    width: 100%;
+    background: white;
+    z-index: 2;
+}
+
+.navDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navHeader .navLogo {
+    width: 50px;
+    margin-left: 12px;
+}
+
+.navLinks {
+    display: flex;
+}
+
+.navLink {
+    padding: 16px 32px;
+    display: block;
+    letter-spacing: 3px;
+    color: gray;
+    transition: all 0.3s linear;
+}
+
+.navLink:hover {
+    color: cornflowerblue;
+}
+
+.navIcons {
+    display: flex;
+}
+
+.navIcon {
+    font-size: 20px;
+    margin-right: 12px;
+    color: cornflowerblue;
+}
+
+.bannerSection {
+    background: url(../images/main.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bannerDiv {
+    text-align: center;
+    color: tomato;
+    margin-bottom: 50px;
+}
+
+.bannerDiv p {
+    letter-spacing: 5px;
+}
+
+.bannerBtnDiv {
+    margin-top: 30px;
+}
+
+.bannerBtn {
+    background: white;
+    color: tomato;
+    padding: 15px 20px;
+    font-size: 20px;
+}
+
+.bannerBtn:hover {
+    background: transparent;
+    color: white;
+    border-color: white;
+}
+
+.aboutSection {
+    padding: 50px 0px;
+}
+
+.aboutTittle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.aboutTittle h2 {
+    text-transform: uppercase;
+}
+
+.aboutContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 0px 100px;
+}
+
+.aboutPhoto {
+    width: 100%;
+    position: relative;
+}
+
+.aboutImg {
+    width: 50%;
+    position: relative;
+}
+
+.aboutImg::before {
+    content: '';
+    position: absolute;
+    border: 8px solid cornflowerblue;
+    width: 100%;
+    height: 100%;
+    top: -25px;
+    left: -25px;
+    box-sizing: border-box;
+}
+
+.aboutInfo {
+    width: 40%;
+}
+
+.btnDiv {
+    margin-top: 20px;
+}
+
+.servicesContainer {
+    background: mediumorchid;
+    padding: 50px 20px;
+}
+
+.servicesTitle {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services {
+    display: flex;
+}
+
+.service {
+    display: flex;
+}
+
+.serviceIcon {
+    font-size: 32px;
+    padding: 8px;
+    background: cornflowerblue;
+    color: white;
+    border-radius: 10px;
+    align-self: self-start;
+}
+
+.serviceInfo {
+    padding-left: 16px;
+}
+
+.serviceTitle {
+    margin-bottom: 10px;
+}
+
+.tourSection {
+    margin: 50px 0px;
+}
+
+.tourMainTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.tourCards {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0px 50px;
+}
+
+.tourCard {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 400px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+}
+
+.tourImgContainer {
+    position: relative;
+}
+
+.tourImg {
+    width: 100%;
+    height: 300px;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.tourDate {
+    position: absolute;
+    right: 0px;
+    bottom: 0px;
+    background: cornflowerblue;
+    color: white;
+    padding: 4px 8px;
+    margin-bottom: 4px;
+    border-radius: 15px 0px 0px 0px;
+}
+
+.tourInfo {
+    padding: 20px 25px;
+}
+
+.tourTitle h4,
+.tourTitle p {
+    margin-bottom: 12px;
+    line-height: 1.25;
+}
+
+.tourTitle p {
+    color: gray;
+}
+
+.tourFooter {
+    display: flex;
+    justify-content: space-between;
+    color: cornflowerblue;
+}
+
+.tourBtn {
+    margin: 30px 0px;
+    text-align: center;
+}
+
+.galleries {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.galleryImgContainer {
+    width: 25%;
+    height: 250px;
+    position: relative;
+    background: cornflowerblue;
+}
+
+.galleryImg {
+    height: 100%;
+    width: 100%;
+}
+
+.galleryIcon {
+    position: absolute;
+    font-size: 32px;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.galleryImgContainer:hover .galleryIcon {
+    opacity: 1;
+}
+
+.galleryImgContainer:hover .galleryImg {
+    opacity: 0.5;
+}
+
+.contactSection {
+    padding: 50px 0px;
+    background: cornflowerblue;
+}
+
+.contactContainer {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contactTitle {
+    color: white;
+}
+
+.formControl,
+.btnSubmit {
+    padding: 5px 10px;
+    letter-spacing: 3px;
+    border-radius: 30px;
+    border: transparent;
+    cursor: pointer;
+    color: cornflowerblue;
+    outline: none;
+    margin-left: 8px;
+    font-size: 16px;
+    line-height: 1.5;
+    transition: all 0.3s linear;
+}
+
+.formControl {
+    min-width: 400px;
+}
+
+.formControl::placeholder {
+    color: cornflowerblue;
+}
+
+.btnSubmit:hover {
+    color: pink;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.footer {
+    background: black;
+    color: white;
+    text-align: center;
+    padding: 50px 0px;
+}
+
+.footerLinks,
+.footerIcons {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 25px;
+}
+
+.footerLink {
+    list-style-type: none;
+    text-decoration: none;
+    color: white;
+    letter-spacing: 3px;
+    padding-left: 16px;
+    transition: all 0.3s linear;
+}
+
+.footerLink:hover {
+    color: cornflowerblue;
+}
+
+.footerIcon {
+    font-size: 32px;
+    color: cornflowerblue;
+    padding-left: 16px;
+}
+
+.company {
+    letter-spacing: 3px;
+}
