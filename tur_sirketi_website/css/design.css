@@ -379,3 +379,7 @@ a {
 .company {
     letter-spacing: 3px;
 }
+
+.navToggle {
+    display: none;
+}
