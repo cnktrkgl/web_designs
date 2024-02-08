@@ -1,0 +1,414 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.sectionCenter {
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section {
+    padding: 100px 0px;
+}
+
+.navbar {
+    height: 90px;
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+
+.navCenter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    max-width: 1170px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.navLinks {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-self: end;
+    column-gap: 30px;
+    transition: all 0.3s linear;
+}
+
+.navLinks li a {
+    text-decoration: none;
+    color: gray;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+.navLinks li a:hover {
+    color: black;
+}
+
+.navlogo {
+    width: 90px;
+    border: 4px solid black;
+    border-radius: 10px;
+}
+
+.banner {
+    background: ghostwhite;
+}
+
+.bannerDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-items: center;
+    /*place-items: center; hem yatay hem dikey hizalama*/
+}
+
+.title {
+    font-size: 50px;
+}
+
+.underline {
+    width: 330px;
+    height: 4px;
+    background: black;
+}
+
+.bannerInfo .underline {
+    margin: 5px auto 20px 0px;
+}
+
+.bannerInfo h2 {
+    color: gray;
+}
+
+.btn {
+    color: red;
+    background: white;
+    padding: 10px 12px;
+    border-radius: 30px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: inline-block;
+    margin: 20px 0px;
+    letter-spacing: 2px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+    transition: all 0.3s linear;
+}
+
+.btn:hover {
+    background: lightgray;
+}
+
+.bannerPhoto {
+    width: 400px;
+    border: 4px solid black;
+    border-radius: 20px;
+}
+
+.about {
+    background: azure;
+}
+
+.aboutDiv {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    place-items: center;
+}
+
+.aboutTittle {
+    margin-bottom: 30px;
+}
+
+.aboutTittle .title {
+    text-align: center;
+}
+
+.aboutTittle .underline {
+    margin: 5px auto 20px auto;
+}
+
+.aboutBtnDiv {
+    text-align: center;
+}
+
+.edu {
+    background: antiquewhite;
+}
+
+.eduTittle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.eduTittle .underline {
+    margin: 5px auto 20px auto;
+}
+
+.edus {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 30px;
+}
+
+.educard {
+    text-align: center;
+    background: white;
+    padding: 50px 25px;
+    border-radius: 20px;
+    font-size: 20px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    transition: all 0.3s linear;
+}
+
+.eduIcon {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.educard:hover {
+    color: white;
+    background: gray;
+}
+
+.projectSection {
+    background: darkgray;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 200px 200px;
+    gap: 20px;
+    grid-template-areas: 'a b b' 'a c d';
+}
+
+.project1 {
+    grid-area: a;
+}
+
+.project2 {
+    grid-area: b;
+}
+
+.project3 {
+    grid-area: c;
+}
+
+.project4 {
+    grid-area: d;
+}
+
+.projectsTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.projectsTitle .underline {
+    margin: 5px auto 20px auto;
+}
+
+.projectsText {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.proje {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.project {
+    position: relative;
+    height: 100%;
+    background: darkblue;
+    border-radius: 8px;
+}
+
+.projectInfo {
+    position: absolute;
+    color: white;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.project:hover .projectInfo {
+    opacity: 1;
+}
+
+.project:hover .projectImg {
+    opacity: 0.1;
+}
+
+.projectImg {
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+}
+
+.project::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    border: 4px solid white;
+    border-radius: 8px;
+    opacity: 0;
+    transition: all 0.3s linear;
+}
+
+.project:hover::before {
+    opacity: 1;
+    transform: scale(0.8);
+}
+
+.skills {
+    background: aliceblue;
+}
+
+.skillsTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.skillsTitle .underline {
+    margin: 5px auto 20px auto;
+}
+
+.skillsCenter {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 30px;
+}
+
+.skill {
+    margin-bottom: 20px;
+}
+
+.skill p {
+    margin-bottom: 8px;
+}
+
+.skillContainer {
+    position: relative;
+    width: 100%;
+    height: 16px;
+    background: white;
+    border-radius: 10px;
+}
+
+.skillValue {
+    position: absolute;
+    height: 100%;
+    /* width: 90%; */
+    background: darkblue;
+    border-radius: 10px;
+}
+
+.skillText {
+    position: absolute;
+    top: -32px;
+    /* left: 90%; */
+    transform: translateX(-50%);
+    color: brown;
+}
+
+.value90 {
+    width: 90%;
+}
+
+.size90 {
+    left: 90%;
+}
+
+.value80 {
+    width: 80%;
+}
+
+.size80 {
+    left: 80%;
+}
+
+.value50 {
+    width: 50%;
+}
+
+.size50 {
+    left: 50%;
+}
+
+.value40 {
+    width: 40%;
+}
+
+.size40 {
+    left: 40%;
+}
+
+.value30 {
+    width: 30%;
+}
+
+.size30 {
+    left: 30%;
+}
+
+.value20 {
+    width: 20%;
+}
+
+.size20 {
+    left: 20%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Footer */
+
+.footer {
+    background: black;
+    color: white;
+    display: grid;
+    place-items: center;
+    padding-bottom: 30px;
+}
+
+.footer .socialIcons {
+    list-style-type: none;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    justify-items: center;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    width: 300px;
+}
+
+.footer .socialIcon {
+    color: white;
+    font-size: 24px;
+}
+
+.footer p {
+    font-size: 20px;
+    letter-spacing: 3px;
+}
