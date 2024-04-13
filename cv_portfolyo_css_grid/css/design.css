@@ -152,7 +152,7 @@
 
 .edus {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 30px;
 }
 
@@ -370,18 +370,126 @@
     left: 20%;
 }
 
+.timeline {
+    background: gainsboro;
+}
 
+.timelineTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
 
+.timelineTitle .underline {
+    margin: 5px auto 20px auto;
+}
 
+.timelineItem {
+    border-top: 2px dashed black;
+    padding: 60px 30px;
+    width: 100%;
+    position: relative;
+}
 
+.timelineItem:first-child {
+    border-top: 0;
+    border-top-right-radius: 0 !important;
+}
 
+.timelineItem:last-child {
+    border-bottom-right-radius: 0 !important;
+}
 
+.timelineItem:nth-child(odd) {
+    border-right: 2px dashed black;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+    margin-left: 30px;
+}
 
+.timelineItem:nth-child(even) {
+    border-left: 2px dashed black;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 30px;
+    margin-right: 30px;
+}
 
+.timelineItem h4 {
+    font-size: 20px;
+}
 
+.timelineItem .number {
+    position: absolute;
+    top: 50%;
+    right: 0;
+    background: black;
+    color: white;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    font-weight: bold;
+    display: grid;
+    place-items: center;
+}
 
+.timelineItem:nth-child(odd) .number {
+    transform: translate(50%, -50%);
+    right: 0;
+}
 
+.timelineItem:nth-child(even) .number {
+    transform: translate(-50%, -50%);
+    left: 0;
+}
 
+.blog {
+    background: floralwhite;
+}
+
+.blogTitle {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.blogTitle .underline {
+    margin: 5px auto 20px auto;
+}
+
+.blogCenter {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px 30px;
+}
+
+.blogcard {
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    background: white;
+    height: 400px;
+    border-radius: 30px;
+}
+
+.blogcard .cardInfo {
+    text-align: center;
+    padding: 10px 30px;
+}
+
+.blogcard .cardInfo h4 {
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.blogcard img {
+    height: 200px;
+    width: 100%;
+    border-radius: 30px 30px 0px 0px;
+}
+
+.blogcard .cardfooter {
+    text-align: center;
+}
+
+.blogcard .cardfooter .btn {
+    margin-top: 10px;
+}
 
 /* Footer */
 
