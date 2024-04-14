@@ -16,8 +16,11 @@
     <header id="home">
         <nav class="navbar">
             <div class="navCenter">
-                <div>
+                <div class="navMobile">
                     <img src="images/ct_logo.jpg" class="navlogo">
+                    <div class="navBtn">
+                        <i class="fa-solid fa-bars"></i>
+                    </div>
                 </div>
                 <ul class="navLinks">
                     <li>
@@ -33,6 +36,27 @@
                         <a href="#projects">Projelerim</a>
                     </li>
                 </ul>
+                <div id="sidebar" class="sidebar">
+                    <div>
+                        <button class="closeBtn" id="closeBtn">
+                            <i class="fa-solid fa-xmark"></i>
+                        </button>
+                        <ul class="sidebarLinks">
+                            <li>
+                                <a href="#home">Anasayfa</a>
+                            </li>
+                            <li>
+                                <a href="#about">Hakkımda</a>
+                            </li>
+                            <li>
+                                <a href="#edu">Eğitimim</a>
+                            </li>
+                            <li>
+                                <a href="#projects">Projelerim</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </div>
         </nav>
     </header>
@@ -356,6 +380,7 @@
         </ul>
         <p>Cenk Türkoğlu | Tüm Hakları Saklıdır.</p>
     </footer>
+    <script src="js/script.js"></script>
 </body>
 
 </html>

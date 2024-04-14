@@ -1,0 +1,124 @@
+.navLinks {
+    display: none;
+}
+
+.navbar {
+    height: 140px;
+}
+
+.navCenter {
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.navMobile {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+}
+
+.navBtn {
+    font-size: 64px;
+    display: grid;
+    justify-self: end;
+    color: black;
+}
+
+.navlogo {
+    font-size: 16px;
+}
+
+.bannerPhoto {
+    display: none;
+}
+
+.bannerDiv {
+    grid-template-columns: 1fr;
+    padding: 20px;
+    text-align: center;
+}
+
+.closeBtn {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 48px;
+    background: transparent;
+    border: transparent;
+    color: darkred;
+}
+
+.sidebarLinks li {
+    list-style-type: none;
+}
+
+.sidebarLinks a {
+    color: white;
+    display: inline-block;
+    font-size: 32px;
+    letter-spacing: 4px;
+    margin-bottom: 25px;
+    text-decoration: none;
+}
+
+.sidebar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: gray;
+    display: grid;
+    place-items: center;
+    transform: translateX(-100%);
+    transition: all 0.3s linear;
+}
+
+.showsidebar {
+    transform: translateX(0);
+}
+
+.aboutDiv {
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.edus {
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.educard {
+    margin-bottom: 30px;
+}
+
+.projects {
+    grid-template-columns: 1fr 1fr;
+    grid-template-areas:
+        'a b'
+        'c d';
+    padding: 20px;
+}
+
+.skillsCenter {
+    margin-left: 30px;
+    padding: 20px;
+}
+
+.timelineCenter {
+    width: 70%;
+    padding-right: 10px;
+}
+
+.timelineItem {
+    padding: 20px;
+}
+
+.blogCenter {
+    grid-template-columns: 1fr;
+    padding: 20px;
+}
+
+.footer {
+    text-align: center;
+}
