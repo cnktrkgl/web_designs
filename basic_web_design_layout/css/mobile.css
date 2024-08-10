@@ -1,0 +1,61 @@
+.topnav .menu a {
+    display: none;
+}
+
+.topnav .menu {
+    float: none;
+}
+
+.topnav a.icon {
+    display: block;
+    font-size: xx-large;
+}
+
+.topnav.responsive .icon {
+    position: absolute;
+    right: 0px;
+    top: 8px;
+    z-index: 1;
+}
+
+.topnav.responsive a {
+    float: none;
+    display: block;
+    text-align: center;
+}
+
+.topnav.responsive .logo {
+    max-width: 250px;
+    margin: auto;
+}
+
+section {
+    margin: 0px;
+    padding: 10px;
+}
+
+.col-66,
+.col-33 {
+    width: 100%;
+    text-align: center;
+}
+
+.firstTitle {
+    font-size: 30px;
+}
+
+.secondTitle {
+    font-size: 20px;
+}
+
+.thirdTitle {
+    font-size: 18px;
+}
+
+img {
+    margin: auto;
+}
+
+footer section {
+    width: 90%;
+}
