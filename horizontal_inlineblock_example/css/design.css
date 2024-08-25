@@ -1,0 +1,28 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav ul {
+    list-style-type: none;
+    display: inline-block;
+    width: 100%;
+    background: gray;
+}
+
+nav ul li {
+    float: left;
+}
+
+nav ul li a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 15px;
+}
+
+nav ul li a:hover {
+    background: white;
+    color: black;
+}
