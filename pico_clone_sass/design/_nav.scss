@@ -1,0 +1,39 @@
+header {
+  /* height: 75px; */
+  border-bottom: 1px solid var(--silver);
+  & nav {
+    width: 800px;
+    margin: 0 auto;
+    & ul {
+      float: left;
+      list-style-type: none;
+      & li {
+        float: left;
+        margin-right: 10px;
+        margin: 10px 0;
+        padding-right: 10px;
+        & a {
+          text-decoration: none;
+          color: var(--link-color);
+          padding: 8px 12px;
+          border-radius: 4px;
+          &:hover {
+            color: var(--link-color-hover);
+            background: var(--silver);
+          }
+        }
+        &:last-child a {
+          background: var(--blue);
+          color: var(--bg-color);
+          &:hover {
+            background: var(--dark-blue);
+            color: var(--blue);
+          }
+        }
+      }
+      &:last-of-type {
+        float: right;
+      }
+    }
+  }
+}
