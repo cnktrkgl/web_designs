@@ -1,0 +1,128 @@
+.hamburger {
+  display: block;
+}
+
+.hamburger:hover {
+  transform: scale(1.2);
+  --webkit-transform: scale(1.2);
+  transition: 1000ms linear all;
+}
+
+.hamburger:visited {
+  transform: scale(0s);
+  --webkit-transform: scale(1.2);
+  transition: 1000ms linear all;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.hero {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.about article h3 {
+  text-align: center;
+}
+
+.about article p {
+  margin: 0 20px 0 30px;
+}
+
+.edu_cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 20px 0 0;
+}
+
+.edu_cards .edu_header {
+  text-align: center;
+}
+
+.edu_card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.edu_card .edu_info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.edu_img {
+  text-align: center;
+}
+
+.edu_logo {
+  text-align: center;
+}
+
+.portfolyo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav_list {
+  display: none;
+}
+
+.nav_list_responsive {
+  display: none;
+  top: 72px;
+  z-index: 99;
+  right: 0;
+  background: gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav_list_responsive li {
+  list-style-type: none;
+  margin: 25px 0;
+}
+
+.nav_list_responsive li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav_list_responsive li a:link {
+  background: black;
+  color: white;
+}
+
+.active {
+  position: fixed;
+  z-index: 99;
+  display: inline-block;
+}

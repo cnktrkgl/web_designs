@@ -1,0 +1,73 @@
+.about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  margin: 0 20px;
+}
+
+.edu_cards {
+  margin: 0 20px;
+}
+
+.edu_info {
+  text-align: center;
+}
+
+.hamburger {
+  display: block;
+}
+
+.hamburger:hover {
+  transform: scale(1.2);
+  --webkit-transform: scale(1.2);
+  transition: 1000ms linear all;
+}
+
+.hamburger:visited {
+  transform: scale(0s);
+  --webkit-transform: scale(1.2);
+  transition: 1000ms linear all;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav_list {
+  display: none;
+}
+
+.nav_list_responsive {
+  display: none;
+  top: 90px;
+  z-index: 99;
+  right: 0;
+  background: gray;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav_list_responsive li {
+  list-style-type: none;
+  margin: 25px 0;
+}
+
+.nav_list_responsive li a {
+  text-decoration: none;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.nav_list_responsive li a:link {
+  background: black;
+  color: white;
+}
+
+.active {
+  position: fixed;
+  z-index: 99;
+  display: inline-block;
+}

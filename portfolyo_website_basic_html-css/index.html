@@ -4,19 +4,44 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="design/design.css" />
+    <link rel="stylesheet" media="(max-width:560px)" href="design/mobile.css" />
+    <link
+      rel="stylesheet"
+      media="(max-width:1024px)"
+      href="design/tablet.css"
+    />
+    <link
+      rel="stylesheet"
+      media="(max-width:1024px)"
+      href="design/tablet.css"
+    />
     <link rel="shortcut icon" href="images/ct_logo.jpg" type="image/x-icon" />
     <title>Cenk Türkoğlu</title>
   </head>
   <body>
     <nav class="navbar">
       <img class="logo" src="images/ct_logo.jpg" alt="logo" />
-      <ul class="nav_list">
+      <img
+        id="hamburger"
+        class="hamburger"
+        width="50"
+        height="50"
+        src="https://img.icons8.com/ios-filled/50/xbox-menu.png"
+        alt="xbox-menu"
+      />
+      <ul id="nav_list" class="nav_list">
         <li><a href="#about">Hakkımda</a></li>
         <li><a href="#edu">Eğitim</a></li>
         <li><a href="#portfolyo">Portfolyo</a></li>
         <li><a href="#contact">İletişim</a></li>
       </ul>
     </nav>
+    <ul id="nav_list_responsive" class="nav_list_responsive">
+      <li><a href="#about">Hakkımda</a></li>
+      <li><a href="#edu">Eğitim</a></li>
+      <li><a href="#portfolyo">Portfolyo</a></li>
+      <li><a href="#contact">İletişim</a></li>
+    </ul>
     <header class="hero">
       <img class="hero_pic" src="images/ct_2024_black.jpg" alt="ct_profile" />
       <h1>Cenk Türkoğlu</h1>
@@ -40,7 +65,7 @@
     </section>
     <hr class="line" />
     <section class="edu" id="edu">
-      <h3>Eğitim</h3>
+      <h3 class="edu_header">Eğitim</h3>
       <div class="edu_cards">
         <div class="edu_card">
           <div class="edu_img">
@@ -90,7 +115,7 @@
       </div>
     </section>
     <hr class="line" />
-    <section id="portfolyo">
+    <section class="portfolyo_section" id="portfolyo">
       <h3 class="portfolyo_header">Portfolyo</h3>
       <div class="portfolyo">
         <a class="link" href="https://www.linkedin.com/in/turkoglucenk"
@@ -132,7 +157,7 @@
       </div>
     </section>
     <hr class="line" />
-    <section id="contact">
+    <section class="contact_section" id="contact">
       <h3 class="contact_header">İletişim</h3>
       <div class="contact">
         <a class="link" href="https://www.google.com/maps/place/Bursa"
