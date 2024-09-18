@@ -20,38 +20,65 @@
   </head>
   <body>
     <nav class="navbar">
-      <img class="logo" src="images/ct_logo.jpg" alt="logo" />
-      <img
-        id="hamburger"
-        class="hamburger"
-        width="50"
-        height="50"
-        src="https://img.icons8.com/ios-filled/50/xbox-menu.png"
-        alt="xbox-menu"
-      />
+      <a href="#hero"
+        ><img class="logo" src="images/ct_logo.jpg" alt="logo"
+      /></a>
+      <ul class="mobile_list">
+        <li>
+          <img
+            id="dark_mode_btn"
+            class="dark_mode_btn"
+            width="20"
+            height="20"
+            src="https://img.icons8.com/ios-filled/50/do-not-disturb-2.png"
+            alt="do-not-disturb-2"
+          />
+        </li>
+        <li>
+          <img
+            id="hamburger"
+            class="hamburger"
+            width="40"
+            height="40"
+            src="https://img.icons8.com/ios-filled/50/xbox-menu.png"
+            alt="xbox-menu"
+          />
+        </li>
+      </ul>
+
       <ul id="nav_list" class="nav_list">
         <li><a href="#about">Hakkımda</a></li>
         <li><a href="#edu">Eğitim</a></li>
         <li><a href="#portfolyo">Portfolyo</a></li>
         <li><a href="#contact">İletişim</a></li>
+        <img
+          id="dark_mode_btn"
+          class="dark_mode_btn"
+          width="25"
+          height="25"
+          src="https://img.icons8.com/ios-filled/50/do-not-disturb-2.png"
+          alt="do-not-disturb-2"
+        />
       </ul>
     </nav>
     <ul id="nav_list_responsive" class="nav_list_responsive">
-      <li><a href="#about">Hakkımda</a></li>
-      <li><a href="#edu">Eğitim</a></li>
-      <li><a href="#portfolyo">Portfolyo</a></li>
-      <li><a href="#contact">İletişim</a></li>
+      <li><a class="nav_list_responsive_link" href="#about">Hakkımda</a></li>
+      <li><a class="nav_list_responsive_link" href="#edu">Eğitim</a></li>
+      <li>
+        <a class="nav_list_responsive_link" href="#portfolyo">Portfolyo</a>
+      </li>
+      <li><a class="nav_list_responsive_link" href="#contact">İletişim</a></li>
     </ul>
-    <header class="hero">
+    <header class="hero" id="hero">
       <img class="hero_pic" src="images/ct_2024_black.jpg" alt="ct_profile" />
-      <h1>Cenk Türkoğlu</h1>
-      <h2>Jr. Frontend Developer</h2>
+      <h1 class="hero_title">Cenk Türkoğlu</h1>
+      <h2 class="hero2_title">Jr. Frontend Developer</h2>
     </header>
     <hr class="line" />
     <section class="about" id="about">
       <img class="ct_about" src="images/ct_doga.jpeg" alt="ct_doga" />
       <article>
-        <h3>Hakkımda</h3>
+        <h3 class="section_title">Hakkımda</h3>
         <p>
           Merhabalar Ben Cenk Türkoğlu;<br />
           Front-End ve UI tarafında gelecek düşünüyorum. Temel yazılım, donanım
@@ -65,7 +92,7 @@
     </section>
     <hr class="line" />
     <section class="edu" id="edu">
-      <h3 class="edu_header">Eğitim</h3>
+      <h3 class="edu_header section_title">Eğitim</h3>
       <div class="edu_cards">
         <div class="edu_card">
           <div class="edu_img">
@@ -116,7 +143,7 @@
     </section>
     <hr class="line" />
     <section class="portfolyo_section" id="portfolyo">
-      <h3 class="portfolyo_header">Portfolyo</h3>
+      <h3 class="portfolyo_header section_title">Portfolyo</h3>
       <div class="portfolyo">
         <a class="link" href="https://www.linkedin.com/in/turkoglucenk"
           ><img
@@ -158,7 +185,7 @@
     </section>
     <hr class="line" />
     <section class="contact_section" id="contact">
-      <h3 class="contact_header">İletişim</h3>
+      <h3 class="contact_header section_title">İletişim</h3>
       <div class="contact">
         <a class="link" href="https://www.google.com/maps/place/Bursa"
           ><img

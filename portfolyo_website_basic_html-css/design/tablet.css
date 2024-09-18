@@ -41,7 +41,7 @@
 
 .nav_list_responsive {
   display: none;
-  top: 90px;
+  top: 60px;
   z-index: 99;
   right: 0;
   background: gray;
@@ -66,8 +66,27 @@
   color: white;
 }
 
+.mobile_list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mobile_list li {
+  margin: 0 10px;
+  list-style-type: none;
+}
+
+.mobile_dark_mode_btn {
+  display: inline-block;
+}
+
 .active {
   position: fixed;
   z-index: 99;
   display: inline-block;
+}
+
+.hidden {
+  display: none;
 }
