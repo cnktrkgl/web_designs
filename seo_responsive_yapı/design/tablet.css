@@ -1,0 +1,24 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links {
+    display: none;
+}
+
+.button {
+    display: block;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-menu.acvtive {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}

@@ -1,0 +1,113 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    scroll-padding-top: 60px;
+    background: #00CAFF;
+    color: #fff;
+    padding: 1rem;
+}
+
+.seo-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+.button {
+    display: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 1rem;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.mobile-menu {
+    display: none;
+}
+
+.mobile-nav-links {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    background: #00CAFF;
+    list-style-type: none;
+    top: 60px;
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+}
+
+.mobile-nav-links a {
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 1rem;
+}
+
+header {
+    background: #0065F8;
+    color: #fff;
+    padding: 2rem;
+    text-align: center;
+}
+
+main {
+    padding: 2rem;
+}
+
+section {
+    margin-bottom: 2rem;
+}
+
+section h2 {
+    margin-bottom: 1rem;
+}
+
+.seo-tags {
+    margin: 0 2rem;
+}
+
+footer {
+    background: #0065F8;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+}
+
+footer p a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0;
+}
+
+/* Responsive Design Yapıldı */
